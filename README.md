@@ -104,3 +104,13 @@ draw(ht, merge_legends = TRUE,
 ```
 
 ![](figures/unnamed-chunk-7-1.png)<!-- -->
+
+
+``` r
+pdf(file = "./Manuscript_figure.pdf", width = 6, height = 10)
+draw(ht, merge_legends = TRUE,
+     heatmap_legend_side = "right",
+     annotation_legend_side = "right",
+     padding = unit(c(2, 2, 2, 2), "mm"))
+dev.off()
+```

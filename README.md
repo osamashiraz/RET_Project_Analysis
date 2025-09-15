@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+## Load Packages
 ``` r
 suppressPackageStartupMessages({
   library(ComplexHeatmap)
